@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/test-angular-js';
+const URI = 'mongodb+srv://devslippery:devslippery123@cluster0.bqrff.mongodb.net/angular-js-test?retryWrites=true&w=majority';
 
 mongoose
   .connect(URI, {
